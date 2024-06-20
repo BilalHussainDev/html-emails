@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="x-apple-disable-message-reformatting" />
+
+    <!--Dark Mode meta tags needed to enable Dark Mode in email client user agents-->
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark only" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Styled Email</title>
+
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+
+    <style>
+      table,
+      td,
+      div,
+      h1,
+      p {
+        font-family: "Poppins", sans-serif;
+      }
+
+      @media screen and (max-width: 440px) {
+        .logo-box {
+          padding: 16px 8px 8px 8px !important;
+        }
+
+        .main-content {
+          padding: 20px 16px !important;
+        }
+
+        .main-heading {
+          margin-bottom: 16px !important;
+          font-size: 18px !important;
+          line-height: 28px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      word-spacing: normal;
+      background-color: #e9ecef;
+    "
+  >
+    <!-- Scaffold -->
+    <div
+      role="article"
+      aria-roledescription="email"
+      lang="en"
+      style="
+        text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        background-color: #e9ecef;
+      "
+    >
+      <table
+        role="presentation"
+        style="width: 100%; border: none; border-spacing: 0"
+      >
+        <tr>
+          <td align="center" style="padding: 0">
+            <!-- Container -->
+            <!--[if mso]>
+          <table role="presentation" align="center" style="width:546px;">
+          <tr>
+          <td>
+          <![endif]-->
+            <table
+              role="presentation"
+              style="
+                width: 92%;
+                max-width: 546px;
+                border: none;
+                border-spacing: 0;
+                text-align: left;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                line-height: 22px;
+                color: #1c1e23;
+              "
+            >
+              <!-- Logo Row -->
+              <tr>
+                <td
+                  class="logo-box"
+                  style="
+                    padding: 36px 16px 16px 16px;
+                    text-align: center;
+                    font-size: 17px;
+                    font-weight: bold;
+                  "
+                >
+                  <a
+                    href="http://www.example.com/"
+                    style="text-decoration: none"
+                  >
+                    <img
+                      src="https://assets.codepen.io/210284/logo.png"
+                      width="120"
+                      alt="Magnus Mage"
+                      style="
+                        width: 120px;
+                        height: auto;
+                        border: none;
+                        text-decoration: none;
+                        fill: #f8f8fc;
+                        color: #406bfe;
+                      "
+                    />
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Header Row -->
+              <tr>
+                <td
+                  style="
+                    padding: 0;
+                    font-size: 22px;
+                    line-height: 75px;
+                    font-weight: bold;
+                    background: #406bfe;
+                    border-radius: 10px;
+                  "
+                >
+                  <img src=https://i.ibb.co/4mNRT84/header.png" width="600"
+                  alt="Welcome" style="width:100%; height:auto; display:block;
+                  border:none; text-decoration:none; color:#ffffff;">
+                </td>
+              </tr>
+
+              <!-- Main Content Row -->
+              <tr>
+                <td
+                  class="main-content"
+                  style="padding: 28px 24px; background-color: #ffffff"
+                >
+                  <h1
+                    class="main-heading"
+                    style="
+                      margin-top: 0;
+                      margin-bottom: 18px;
+                      font-size: 26px;
+                      line-height: 36px;
+                      font-weight: 400;
+                      color: #1c1e23;
+                    "
+                  >
+                    Your email and password has been created for HRM
+                  </h1>
+                  <p
+                    style="
+                      margin-top: 0;
+                      margin-bottom: 18px;
+                      font-size: 15px;
+                      color: #525f7f;
+                    "
+                  >
+                    Following is your email and password for the human resource
+                    management system, kindly login your account with these
+                    credentials
+                  </p>
+                  <p style="margin-top: 0; margin-bottom: 12px; color: #525f7f">
+                    Link:
+                    <a
+                      href="http://www.example.com/"
+                      style="color: #489dff; text-decoration: none"
+                    >
+                      Hrm link goes here
+                    </a>
+                  </p>
+                  <p style="margin-top: 0; margin-bottom: 12px; color: #525f7f">
+                    Email:
+                    <span style="color: #1c1e23">
+                      <a
+                        href="http://www.example.com/"
+                        style="
+                          color: #1c1e23;
+                          text-decoration: none;
+                          cursor: default;
+                        "
+                        >abc@test.com</a
+                      >
+                    </span>
+                  </p>
+                  <p style="margin-top: 0; margin-bottom: 12px; color: #525f7f">
+                    Password:
+                    <span style="color: #1c1e23"> ajkhsan112415 </span>
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Signature Row -->
+              <tr>
+                <td
+                  style="
+                    padding: 6px;
+                    text-align: center;
+                    background-color: #ffffff;
+                  "
+                >
+                  <p style="margin: 0; font-size: 12px; color: #525f7f">
+                    © Styled Email. All rights reserved.
+                  </p>
+                  <p style="margin: 0; font-size: 12px; color: #525f7f">
+                    If you have any questions please contact us
+                    <a
+                      href="mailto:%20contactus@example.com"
+                      style="color: #489dff; text-decoration: none"
+                    >
+                      contact@example.com
+                    </a>
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Links Row -->
+              <tr>
+                <td
+                  style="
+                    padding: 2px 4px 8px 4px;
+                    text-align: center;
+                    font-size: 10px;
+                    background-color: #ffffff;
+                    color: #406bfe;
+                  "
+                >
+                  <p style="margin: 0">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/LPn84yv/linkedin.png"
+                        width="15"
+                        height="15"
+                        alt="in"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://github.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/V9w8Vbb/github.png"
+                        width="15"
+                        height="15"
+                        alt="g"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="http://www.instagram.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/s5vQ7B1/instagram.png"
+                        width="15"
+                        height="15"
+                        alt="is"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/4PgQsvn/twitter.png"
+                        width="15"
+                        height="15"
+                        alt="x"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/vQC3k5F/facebook.png"
+                        width="15"
+                        height="15"
+                        alt="f"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://medium.com/"
+                      style="text-decoration: none; padding: 0 2px"
+                    >
+                      <img
+                        src="https://i.ibb.co/8gN4GcB/medium.png"
+                        width="15"
+                        height="15"
+                        alt="o"
+                        style="display: inline-block; color: #406bfe"
+                      />
+                    </a>
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Footer Row -->
+              <tr>
+                <td
+                  style="
+                    padding: 2px;
+                    text-align: center;
+                    font-size: 12px;
+                    background-color: #3f6dfd;
+                    color: #ffffff;
+                  "
+                >
+                  <p style="margin: 0; font-size: 12px; line-height: 20px">
+                    <a
+                      target="_blank"
+                      href="http://www.example.com/"
+                      style="color: #ffffff; text-decoration: none"
+                    >
+                      www.example.com
+                    </a>
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Spacer Row -->
+              <tr>
+                <td style="padding: 18px; font-size: 0; line-height: 0">
+                  &nbsp;
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
